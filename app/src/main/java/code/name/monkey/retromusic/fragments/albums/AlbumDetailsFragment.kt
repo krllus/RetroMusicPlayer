@@ -15,10 +15,14 @@
 package code.name.monkey.retromusic.fragments.albums
 
 import android.app.ActivityOptions
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.*
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
 import androidx.core.text.parseAsHtml
@@ -382,6 +386,12 @@ class AlbumDetailsFragment : AbsMainActivityFragment(R.layout.fragment_album_det
                 return true
             }
 
+            R.id.action_copy_album_id -> {
+                settClipboardText(album.id.toString())
+                Toast.makeText(requireContext(), "Album Id copied", Toast.LENGTH_SHORT).show()
+                return true
+            }
+
             R.id.action_tag_editor -> {
                 val intent = Intent(requireContext(), AlbumTagEditorActivity::class.java)
                 intent.putExtra(AbsTagEditorActivity.EXTRA_ID, album.id)
@@ -449,6 +459,13 @@ class AlbumDetailsFragment : AbsMainActivityFragment(R.layout.fragment_album_det
         }
         album = album.copy(songs = songs)
         simpleSongAdapter.swapDataSet(album.songs)
+    }
+
+    private fun settClipboardText(text : String) {
+        val ctx = requireContext()
+        val clipboardManager = ctx.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+        val clipData = ClipData.newPlainText("Album Id", text)
+        clipboardManager.setPrimaryClip(clipData)
     }
 
     override fun onDestroyView() {
