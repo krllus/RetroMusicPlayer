@@ -32,6 +32,7 @@ fun AppCompatActivity.keepScreenOn(keepScreenOn: Boolean) {
     }
 }
 
+@Suppress("DEPRECATION")
 fun AppCompatActivity.maybeShowWhenLocked() {
     if (PreferenceUtil.isShowWhenLockedEnabled) {
         if (VersionUtils.hasOreoMR1()) {
@@ -95,6 +96,7 @@ private fun AppCompatActivity.hideStatusBar(fullscreen: Boolean) {
     }
 }
 
+@Suppress("DEPRECATION")
 fun AppCompatActivity.setDrawBehindSystemBars() {
     if (VersionUtils.hasOreo()) {
         WindowCompat.setDecorFitsSystemWindows(window, false)
@@ -105,14 +107,11 @@ fun AppCompatActivity.setDrawBehindSystemBars() {
         }
     } else {
         setNavigationBarColorPreOreo(surfaceColor())
-        if (VersionUtils.hasMarshmallow()) {
-            setStatusBarColor(Color.TRANSPARENT)
-        } else {
-            setStatusBarColor(Color.BLACK)
-        }
+        setStatusBarColor(Color.TRANSPARENT)
     }
 }
 
+@Suppress("DEPRECATION")
 fun FragmentActivity.setTaskDescriptionColor(color: Int) {
     var colorFinal = color
     // Task description requires fully opaque color
@@ -137,16 +136,14 @@ fun AppCompatActivity.setTaskDescriptionColorAuto() {
 
 @Suppress("Deprecation")
 fun AppCompatActivity.setLightStatusBar(enabled: Boolean) {
-    if (VersionUtils.hasMarshmallow()) {
-        val decorView = window.decorView
-        val systemUiVisibility = decorView.systemUiVisibility
-        if (enabled) {
-            decorView.systemUiVisibility =
-                systemUiVisibility or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-        } else {
-            decorView.systemUiVisibility =
-                systemUiVisibility and View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR.inv()
-        }
+    val decorView = window.decorView
+    val systemUiVisibility = decorView.systemUiVisibility
+    if (enabled) {
+        decorView.systemUiVisibility =
+            systemUiVisibility or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+    } else {
+        decorView.systemUiVisibility =
+            systemUiVisibility and View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR.inv()
     }
 }
 
@@ -187,22 +184,13 @@ fun AppCompatActivity.setLightNavigationBarAuto(bgColor: Int) {
  *
  * @param color the new statusbar color (will be shifted down on Lollipop and above)
  */
+@Suppress("DEPRECATION")
 fun AppCompatActivity.setStatusBarColor(color: Int) {
     val statusBar = window.decorView.rootView.findViewById<View>(R.id.status_bar)
     if (statusBar != null) {
-        when {
-            VersionUtils.hasMarshmallow() -> statusBar.setBackgroundColor(color)
-            else -> statusBar.setBackgroundColor(
-                ColorUtil.darkenColor(
-                    color
-                )
-            )
-        }
+        statusBar.setBackgroundColor(color)
     } else {
-        when {
-            VersionUtils.hasMarshmallow() -> window.statusBarColor = color
-            else -> window.statusBarColor = ColorUtil.darkenColor(color)
-        }
+        window.statusBarColor = color
     }
     setLightStatusBarAuto(surfaceColor())
 }
@@ -213,6 +201,7 @@ fun AppCompatActivity.setStatusBarColorAuto() {
     setLightStatusBarAuto(surfaceColor())
 }
 
+@Suppress("DEPRECATION")
 fun AppCompatActivity.setNavigationBarColor(color: Int) {
     if (VersionUtils.hasOreo()) {
         window.navigationBarColor = color
@@ -222,12 +211,14 @@ fun AppCompatActivity.setNavigationBarColor(color: Int) {
     setLightNavigationBarAuto(color)
 }
 
+@Suppress("DEPRECATION")
 fun AppCompatActivity.setNavigationBarColorPreOreo(color: Int) {
     if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {
         window.navigationBarColor = ColorUtil.darkenColor(color)
     }
 }
 
+@Suppress("DEPRECATION")
 fun AppCompatActivity.setStatusBarColorPreMarshmallow(color: Int) {
     val statusBar = window.decorView.rootView.findViewById<View>(R.id.status_bar)
     if (statusBar != null) {

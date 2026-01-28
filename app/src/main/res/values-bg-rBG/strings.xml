@@ -280,8 +280,6 @@
     <string name="not_recently_played">Няма наскоро пуснати песни</string>
     <string name="nothing_to_scan">Няма файлове за сканиране.</string>
     <string name="nothing_to_see">Няма файлове за сканиране</string>
-    <string name="notification">Известия</string>
-    <string name="notification_settings_summary">Настройте стила на известията</string>
     <string name="now_playing">Възпроизвеждане</string>
     <string name="now_playing_queue">Опашка в екрана за възпроизвеждане</string>
     <string name="now_playing_summary">Настройка на екрана за възпроизвеждане</string>
@@ -346,7 +344,6 @@
     <string name="pref_summary_bluetooth_playback">Стартирайте възпроизвеждането веднага след свързване на Bluetooth устройство</string>
     <string name="pref_summary_blurred_album_art">Замъглете обложката на албума на заключения екран. Може да причини проблеми с приложения и уиджети на трети страни</string>
     <string name="pref_summary_carousel_effect">Ефект на завъртане за обложка на албум на екрана за възпроизвеждане. Ефектът не работи за темите \"Карта\" и \"Карта със замъгляване\".\"</string>
-    <string name="pref_summary_classic_notification">Използвайте класически дизайн на известията</string>
     <string name="pref_summary_colored_app">Цветът на фона и бутоните за управление се променя, за да съответства на обложката на албума от екрана за възпроизвеждане</string>
     <string name="pref_summary_colored_app_shortcuts">Преки пътища за приложения за цветове в основен цвят. Всеки път, когато промените цвят, включете го, за да влезе в сила</string>
     <string name="pref_summary_colored_notification">"Оцветява известието в доминиращия цвят на корицата на албума"</string>
@@ -355,7 +352,6 @@
     <string name="pref_summary_expand_now_playing_panel">Щракването върху известие ще покаже екрана за възпроизвеждане вместо началния екран</string>
     <string name="pref_summary_extra_controls">Добавете още контроли за миниплейъра</string>
     <string name="pref_summary_extra_song_info">Показване на допълнителна информация за песента като файлов формат, битрейт и честота</string>
-    <string name="pref_summary_gapless_playback">"Може да причини проблеми с възпроизвеждането на някои устройства."</string>
     <string name="pref_summary_home_banner">Показвай начален бутон</string>
     <string name="pref_summary_ignore_media_store_artwork">Може да подобри качеството на обложката на албума, но да доведе до по-бавно зареждане на изображението. Активирайте това само ако имате проблеми със снимки с ниска резолюция</string>
     <string name="pref_summary_library_categories">Персонализирайте вида и реда на разделите в библиотеката.</string>
@@ -388,7 +384,6 @@
     <string name="pref_title_bluetooth_playback">Възпроизвеждане с Bluetooth връзка</string>
     <string name="pref_title_blurred_album_art">Размазване на обложката на албума</string>
     <string name="pref_title_circle_button">Кръгъл бутон за възпроизвеждане</string>
-    <string name="pref_title_classic_notification">Класически дизайн на известията</string>
     <string name="pref_title_colored_app">Адаптивен цвят</string>
     <string name="pref_title_colored_notification">Цветно известие</string>
     <string name="pref_title_cross_fade">Плавно затихване (бета-версия)</string>
@@ -397,7 +392,6 @@
     <string name="pref_title_expand_now_playing_panel">Показване на екрана за възпроизвеждане</string>
     <string name="pref_title_extra_controls">Допълнителен контрол</string>
     <string name="pref_title_extra_song_info">Инфо за песента</string>
-    <string name="pref_title_gapless_playback">Непрекъснато възпроизвеждане</string>
     <string name="pref_title_general_theme">Тема приложения</string>
     <string name="pref_title_home_album_grid_style">Решетка на албума</string>
     <string name="pref_title_home_artist_grid_style">Решетка на изпълнителя</string>
@@ -453,6 +447,7 @@
     <string name="restored_previous_purchase_please_restart">Предишната покупка е възстановена. Рестартирайте приложението, за да се възползвате от всички функции.</string>
     <string name="restored_previous_purchases">Възстановени са предишните покупки.</string>
     <string name="restoring_purchase">Възстановяване на покупката…</string>
+    <string name="billing_error">An error occurred while communicating with Google Play Billing</string>
     <string name="retro_music_player">Ретро Плеър на Музика</string>
     <string name="retro_music_pro">Ретро Плеър на Музика Про</string>
     <string name="ringtone_summary">Приложението се нуждае от разрешение за достъп до настройките на вашето устройство, за да зададе музика като ваш тон на звънене</string>
@@ -569,4 +564,8 @@
     <string name="your_account_data_is_only_used_for_authentication">Информацията за вашия акаунт се използва само за удостоверяване.</string>
     <string name="could_not_write_tags_to_file">Неуспешно записване на етикети към музикален файл!</string>
     <string name="sleep_timer_no_permission">No permission to schedule alarms, please allow Retro Music.</string>
+    <string name="scanning_folders_files">Scanning folders and files…</string>
+    <string name="scan_complete">Scan complete: %1$d media items found.</string>
+    <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>
+    <string name="pref_save_last_directory_title">Save Last Directory</string>
 </resources>

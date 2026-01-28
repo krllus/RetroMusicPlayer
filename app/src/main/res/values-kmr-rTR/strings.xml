@@ -280,8 +280,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="not_recently_played">Nehatiye lêdan di vê dawiyê de</string>
     <string name="nothing_to_scan">Tiştek bo venêrînê tune ye.</string>
     <string name="nothing_to_see">Tiştek bo dîtinê tune ye</string>
-    <string name="notification">Agahî</string>
-    <string name="notification_settings_summary">Awaya agahiyan kesane bike</string>
     <string name="now_playing">Niha tê lêdan</string>
     <string name="now_playing_queue">Rêzeya niha tê lêdan</string>
     <string name="now_playing_summary">Dîmendera niha tê lêdan kesane bike</string>
@@ -346,7 +344,6 @@ https://play.google.com/store/apps/details?id=%s</string>
     <string name="pref_summary_bluetooth_playback">Dema ku bi amûra bluetooth ve girêdayî be dest bi lêdanê bike</string>
     <string name="pref_summary_blurred_album_art">Berga albumê li ser dîmendera kilîtkirinê mijbarî bike. Ev yek dikare bi sepanên partiya sêyemîn û widgetan re bibe sedema pirsgirêkan</string>
     <string name="pref_summary_carousel_effect">Bandora carousel ji bo berga albumê di dîmendera ku niha tê lêdan. Bizanibe ku rûkarên kert û kertên mijbar wê nexebitin</string>
-    <string name="pref_summary_classic_notification">Dîzayna agahiyên klasîk bi kar bîne</string>
     <string name="pref_summary_colored_app">Rengên paşrûyê û bişkoka kontrolê li gorî wêneya albumê ya ji dîmendera niha tê lêdan 
 têne guhertin</string>
     <string name="pref_summary_colored_app_shortcuts">Kurteyên sepanê bi rengê devokê reng dike. Her dema ku tu rengê diguherînî, ji kerema xwe vê yekê biguherîne da ku bandor bike</string>
@@ -356,7 +353,6 @@ têne guhertin</string>
     <string name="pref_summary_expand_now_playing_panel">Tikandina li ser agahiyan wê niha tê lêdan li şûna dîmendera sereke nîşan bidê</string>
     <string name="pref_summary_extra_controls">Bêtir kontrol ji bo lêdera biçûk tevlî bike</string>
     <string name="pref_summary_extra_song_info">Bêtir zanyariyên stranê, wekî formata pelê, leza bitê û frekansê nîşan bide</string>
-    <string name="pref_summary_gapless_playback">"Dibe ku li ser hinek amûran bibe sedema pirsgirêkên lêdanê."</string>
     <string name="pref_summary_home_banner">Wêneya navrûyê veşêre an jî nîşan bide</string>
     <string name="pref_summary_ignore_media_store_artwork">Dikare kalîteya bergê albûmê bilind bike, lê dibe sedema ku demên barkirina wêneyê hêdî bibe. Tenê ku pirsgirêkên te bi bergê albumên bi çareseriya kêm re hebin vê yekê çalak bike</string>
     <string name="pref_summary_library_categories">Dîtin û rêzkirina beşên pirtûkxaneyê pevsaz bike.</string>
@@ -389,7 +385,6 @@ têne guhertin</string>
     <string name="pref_title_bluetooth_playback">Bi riya Bluetooth lêde</string>
     <string name="pref_title_blurred_album_art">Berga albumê mijbarî bike</string>
     <string name="pref_title_circle_button">Bişkoka lêdana gilover nîşan bide</string>
-    <string name="pref_title_classic_notification">Dîzayna agahiyên klasîk</string>
     <string name="pref_title_colored_app">Rengê guncav</string>
     <string name="pref_title_colored_notification">Agahiyên rengîn</string>
     <string name="pref_title_cross_fade">Derbasbûn (Beta)</string>
@@ -398,7 +393,6 @@ têne guhertin</string>
     <string name="pref_title_expand_now_playing_panel">Dîmendera lêdanê nîşan bide</string>
     <string name="pref_title_extra_controls">Bêtir kontrol</string>
     <string name="pref_title_extra_song_info">Zanyariyên stranê</string>
-    <string name="pref_title_gapless_playback">Lêdana bê navber</string>
     <string name="pref_title_general_theme">Rûkara sepanê</string>
     <string name="pref_title_home_album_grid_style">Berga albumê</string>
     <string name="pref_title_home_artist_grid_style">Tora sereke ya hunermend</string>
@@ -454,6 +448,7 @@ têne guhertin</string>
     <string name="restored_previous_purchase_please_restart">Kirîna berê hate vegerandin. Ji kerema xwe sepanê ji nû ve bide destpêkirin da ku hemû taybetmendiyan bi kar bînî.</string>
     <string name="restored_previous_purchases">Kirînên berê hatin vegerandin.</string>
     <string name="restoring_purchase">Kirîn tê vegerandin…</string>
+    <string name="billing_error">An error occurred while communicating with Google Play Billing</string>
     <string name="retro_music_player">Lêdera muzîkê ya Retro</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="ringtone_summary">Ji bo ku muzîkê wekî dengê zengilê saz bikî pêdivî bi mafdayînê heye ku bigihîje sazkariyên amûra te</string>
@@ -570,4 +565,8 @@ têne guhertin</string>
     <string name="your_account_data_is_only_used_for_authentication">Daneyên ajimêra te tenê ji bo pejirandinê têne bikaranîn.</string>
     <string name="could_not_write_tags_to_file">Nikare etîketan li pelê muzîkê binivîsîne!</string>
     <string name="sleep_timer_no_permission">Izin ji xiştekirina \'elarman re tune, bi kerema xwe izin bidin Retro Music\'ê.</string>
+    <string name="scanning_folders_files">Scanning folders and files…</string>
+    <string name="scan_complete">Scan complete: %1$d media items found.</string>
+    <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>
+    <string name="pref_save_last_directory_title">Save Last Directory</string>
 </resources>

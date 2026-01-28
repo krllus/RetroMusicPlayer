@@ -279,8 +279,6 @@
     <string name="not_recently_played">اخیراً پخش نشده</string>
     <string name="nothing_to_scan">هیچ چیزی برای اسکن نیست.</string>
     <string name="nothing_to_see">اینچا چیزی برای دیدن نیست</string>
-    <string name="notification">اعلان</string>
-    <string name="notification_settings_summary">اعلان‌ها را شخصی‌سازی کنید</string>
     <string name="now_playing">صفحه در حال پخش</string>
     <string name="now_playing_queue">لیست درحال پخش</string>
     <string name="now_playing_summary">صفحه پخش اهنگ را شخصی سازی کنید</string>
@@ -345,7 +343,6 @@
     <string name="pref_summary_bluetooth_playback">به محض اتصال به دستگاه بلوتوث شروع به پخش کنید</string>
     <string name="pref_summary_blurred_album_art">جلد آلبوم را روی صفحه قفل تار کنید. می تواند با برنامه ها و ویجت های شخص ثالث مشکل ایجاد کند</string>
     <string name="pref_summary_carousel_effect">جلوه چرخ فلک برای آلبوم هنرمند در صفحه در حال پخش. توجه داشته باشید که تم‌های کارت و کارت تاری کار نمی‌کنند</string>
-    <string name="pref_summary_classic_notification">از طراحی اعلان کلاسیک استفاده کنید</string>
     <string name="pref_summary_colored_app">رنگ‌های پس‌زمینه و دکمه کنترل با توجه به هنر آلبوم از صفحه در حال پخش تغییر می‌کنند</string>
     <string name="pref_summary_colored_app_shortcuts">میانبرهای برنامه را با رنگ تاکیدی رنگ می کند. هر بار که رنگ را تغییر می‌دهید، لطفاً آن را تغییر دهید تا تأثیر بگذارد</string>
     <string name="pref_summary_colored_notification">"به اعلان های جلد آلبوم\u2019 رنگ های متنوع بدهید"</string>
@@ -354,7 +351,6 @@
     <string name="pref_summary_expand_now_playing_panel">با کلیک بر روی اعلان، به جای صفحه اصلی، صفحه در حال پخش نمایش داده می شود</string>
     <string name="pref_summary_extra_controls">اضافه کردن کنترل های اضافی برای پخش‌کننده کوچک</string>
     <string name="pref_summary_extra_song_info">نمایش اطلاعات اضافی آهنگ، مانند فرمت فایل، میزان بیت و فرکانس</string>
-    <string name="pref_summary_gapless_playback">"می تواند باعث مشکلات پخش در برخی دستگاه ها شود."</string>
     <string name="pref_summary_home_banner">نمایش یا عدم نمایش نوار</string>
     <string name="pref_summary_ignore_media_store_artwork">می تواند کیفیت جلد آلبوم را افزایش دهد، اما باعث کندی بارگذاری تصویر می شود. فقط اگر با آثار هنری با وضوح پایین مشکل دارید این را فعال کنید</string>
     <string name="pref_summary_library_categories">قابلیت مشاهده و ترتیب دسته‌های کتابخانه را پیکربندی کنید.</string>
@@ -387,7 +383,6 @@
     <string name="pref_title_bluetooth_playback">پخش بلوتوث</string>
     <string name="pref_title_blurred_album_art">تار کردن جلد البوم</string>
     <string name="pref_title_circle_button">دکمه پخش دایره ای</string>
-    <string name="pref_title_classic_notification">از نمایش اعلان های موزیک به صورت کلاسیک استفاده کنید</string>
     <string name="pref_title_colored_app">رنگ تطبیقی</string>
     <string name="pref_title_colored_notification">اعلان رنگی</string>
     <string name="pref_title_cross_fade">پخش بعدی قبل از اتمام فعلی (میلی ثانیه)</string>
@@ -396,7 +391,6 @@
     <string name="pref_title_expand_now_playing_panel">نمایش در حال پخش صفحه نمایش</string>
     <string name="pref_title_extra_controls">کنترل های اضافی</string>
     <string name="pref_title_extra_song_info">اطلاعات آهنگ</string>
-    <string name="pref_title_gapless_playback">پخش بدون شکاف</string>
     <string name="pref_title_general_theme">تم برنامه</string>
     <string name="pref_title_home_album_grid_style">تصویر آلبوم</string>
     <string name="pref_title_home_artist_grid_style">صفحه هنرمند</string>
@@ -452,6 +446,7 @@
     <string name="restored_previous_purchase_please_restart">خرید قبلی بازیابی شد، لطفا برای استفاده از تمام ویژگی ها ، برنامه را دوباره راه اندازی کنید.</string>
     <string name="restored_previous_purchases">خریدهای قبلی بازیابی شد.</string>
     <string name="restoring_purchase">در حال برگرداندن پول…</string>
+    <string name="billing_error">An error occurred while communicating with Google Play Billing</string>
     <string name="retro_music_player">پخش‌کننده موسیقی Retro</string>
     <string name="retro_music_pro">پخش‌کننده موسیقی Retro نسخه ویژه</string>
     <string name="ringtone_summary">برنامه برای دسترسی به تنظیمات دستگاه شما برای تنظیم موسیقی به عنوان آهنگ زنگ نیاز به مجوز دارد</string>
@@ -568,4 +563,8 @@
     <string name="your_account_data_is_only_used_for_authentication">اطلاعات حساب شما فقط برای احراز هویت استفاده می شود.</string>
     <string name="could_not_write_tags_to_file">برچسب روی فایل اضافه نشد!</string>
     <string name="sleep_timer_no_permission">دسترسی به تنظیم آلارم وجود ندارد، لطفا به پلیر رترو میوزیک این دسترسی را بدهید.</string>
+    <string name="scanning_folders_files">Scanning folders and files…</string>
+    <string name="scan_complete">Scan complete: %1$d media items found.</string>
+    <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>
+    <string name="pref_save_last_directory_title">Save Last Directory</string>
 </resources>

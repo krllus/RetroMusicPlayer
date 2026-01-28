@@ -279,8 +279,6 @@
     <string name="not_recently_played">Al een tijdje niet beluisterd</string>
     <string name="nothing_to_scan">Niets om te scannen</string>
     <string name="nothing_to_see">Niks te zien hier, enkel leegte</string>
-    <string name="notification">Notificatie</string>
-    <string name="notification_settings_summary">Pas de notificatiestijl aan</string>
     <string name="now_playing">Speelt nu</string>
     <string name="now_playing_queue">Nu afspeel wachtrij</string>
     <string name="now_playing_summary">Pas het \"speelt nu\"-scherm aan</string>
@@ -345,7 +343,6 @@
     <string name="pref_summary_bluetooth_playback">Start playing as soon as connected to bluetooth device</string>
     <string name="pref_summary_blurred_album_art">Vervaagt de album cover op het vergrendelscherm. Kan problemen veroorzaken met apps van derde en widgets/</string>
     <string name="pref_summary_carousel_effect">Carousel effect for the album art in the now playing screen. Note that Card and Blur Card themes won\'t work</string>
-    <string name="pref_summary_classic_notification">Gebruik het klassieke notificatie design.</string>
     <string name="pref_summary_colored_app">Achtergrond, de kleur van de besturingstoetsen verandert overeenstemmend met de album opmaak van het afspeelscherm</string>
     <string name="pref_summary_colored_app_shortcuts">Kleurt de app snelkoppelingen naar de accent kleur. Elker keer wanneer je de kleur verandert, toggle dit om de changes te zien</string>
     <string name="pref_summary_colored_notification">"Kleurt de notificatie in de kleur van de album cover"</string>
@@ -354,7 +351,6 @@
     <string name="pref_summary_expand_now_playing_panel">Clicking on the notification will show now playing screen instead of the home screen</string>
     <string name="pref_summary_extra_controls">Extra besturingselementen voor mini speler toevoegen</string>
     <string name="pref_summary_extra_song_info">Show extra Song information, such as file format, bitrate and frequency</string>
-    <string name="pref_summary_gapless_playback">"Kan afspeelproblemen veroorzaken op sommige toestellen"</string>
     <string name="pref_summary_home_banner">Show or hide the home banner</string>
     <string name="pref_summary_ignore_media_store_artwork">Kan album cover kwaliteit verbeteren, maar veroorzaakt langere laadtijden. Alleen aanzetten als je problemen hebt met lage resolutie artworks</string>
     <string name="pref_summary_library_categories">Configure visibility and order of library categories.</string>
@@ -387,7 +383,6 @@
     <string name="pref_title_bluetooth_playback">Bluetooth afspelen</string>
     <string name="pref_title_blurred_album_art">Vervaag album cover</string>
     <string name="pref_title_circle_button">Ronde afspeelknop</string>
-    <string name="pref_title_classic_notification">Klassiek notificatie design</string>
     <string name="pref_title_colored_app">Aangepaste kleur</string>
     <string name="pref_title_colored_notification">Gekleurde notificatie</string>
     <string name="pref_title_cross_fade">Crossfade (Beta)</string>
@@ -396,7 +391,6 @@
     <string name="pref_title_expand_now_playing_panel">Show now playing screen</string>
     <string name="pref_title_extra_controls">Extra opties</string>
     <string name="pref_title_extra_song_info">Nummer info</string>
-    <string name="pref_title_gapless_playback">Afspelen zonder pauzes</string>
     <string name="pref_title_general_theme">Basis thema</string>
     <string name="pref_title_home_album_grid_style">Album raster</string>
     <string name="pref_title_home_artist_grid_style">Artist grid</string>
@@ -452,6 +446,7 @@
     <string name="restored_previous_purchase_please_restart">Vorige aankoop hersteld. Gelieve de app te herstarten om alle functies te benutten.</string>
     <string name="restored_previous_purchases">Teruggezette aankopen</string>
     <string name="restoring_purchase">Aankoop herstellen…</string>
+    <string name="billing_error">An error occurred while communicating with Google Play Billing</string>
     <string name="retro_music_player">Retro Music Player</string>
     <string name="retro_music_pro">Retro Music Pro</string>
     <string name="ringtone_summary">The app needs permission to access your device settings in order to set music as Ringtone</string>
@@ -568,4 +563,8 @@
     <string name="your_account_data_is_only_used_for_authentication">Your account data is only used for authentication.</string>
     <string name="could_not_write_tags_to_file">Could not write tags to the music file!</string>
     <string name="sleep_timer_no_permission">No permission to schedule alarms, please allow Retro Music.</string>
+    <string name="scanning_folders_files">Scanning folders and files…</string>
+    <string name="scan_complete">Scan complete: %1$d media items found.</string>
+    <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>
+    <string name="pref_save_last_directory_title">Save Last Directory</string>
 </resources>

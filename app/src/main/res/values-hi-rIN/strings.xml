@@ -279,8 +279,6 @@
     <string name="not_recently_played">हाल ही में नहीं बजाया</string>
     <string name="nothing_to_scan">स्कैन करने के लिए कुछ भी नहीं</string>
     <string name="nothing_to_see">कुछ भी नहीं देखने के लिए</string>
-    <string name="notification">अधिसूचना</string>
-    <string name="notification_settings_summary">अधिसूचना शैली को अनुकूलित करें</string>
     <string name="now_playing">अभी चल रहा है</string>
     <string name="now_playing_queue">नाउ प्लेइंग कतार</string>
     <string name="now_playing_summary">नाउ प्लेइंग स्क्रीन को अनुकूलित करें</string>
@@ -345,7 +343,6 @@
     <string name="pref_summary_bluetooth_playback">ब्लूटूथ डिवाइस से कनेक्ट होते ही बाजाना शुरू करें</string>
     <string name="pref_summary_blurred_album_art">लॉकस्क्रीन पर एल्बम कवर को धुंधला करें। तृतीय पक्ष ऐप्स और विजेट्स के साथ समस्याएँ पैदा हो सकती हैं</string>
     <string name="pref_summary_carousel_effect">नाउ प्लेइंग स्क्रीन में एल्बम आर्ट के लिए कैरोसेल प्रभाव। ध्यान दें कि कार्ड और ब्लर कार्ड थीम काम नहीं करेंगी।</string>
-    <string name="pref_summary_classic_notification">क्लासिक अधिसूचना डिज़ाइन का उपयोग करें</string>
     <string name="pref_summary_colored_app">पृष्ठभूमि और नियंत्रण बटन के रंग नाउ प्लेइंग स्क्रीन मे एल्बम आर्ट के अनुसार बदलते हैं।</string>
     <string name="pref_summary_colored_app_shortcuts">ऐप शॉर्टकट को एक्सेंट रंग में रंगें। हर बार जब आप रंग बदलते हैं तो प्रभावी होने के लिए कृपया इसे टॉगल करें</string>
     <string name="pref_summary_colored_notification">"अधिसूचना को एल्बम कवर\u2019 के जीवंत रंग में रंग दे।"</string>
@@ -354,7 +351,6 @@
     <string name="pref_summary_expand_now_playing_panel">नोटिफिकेशन पर क्लिक करने पर होम स्क्रीन की जगह \"नाउ प्लेइंग\" स्क्रीन दिखाई देगी</string>
     <string name="pref_summary_extra_controls">मिनी प्लेयर के लिए अतिरिक्त नियंत्रण जोड़ें</string>
     <string name="pref_summary_extra_song_info">अतिरिक्त जानकारी दिखाएँ, जैसे फ़ाइल स्वरूप, बिटरेट और आवृत्ति</string>
-    <string name="pref_summary_gapless_playback">"कुछ उपकरणों पर प्लेबैक समस्याएँ पैदा हो सकती हैं।"</string>
     <string name="pref_summary_home_banner">होम बैनर दिखाएँ या छिपाएँ</string>
     <string name="pref_summary_ignore_media_store_artwork">एल्बम कवर गुणवत्ता को बढ़ा सकता है, लेकिन छवि लोडिंग समय को धीमा कर देता है। इसे केवल तभी सक्षम करें जब आपको कम रिज़ॉल्यूशन वाली कलाकृति में समस्या हो</string>
     <string name="pref_summary_library_categories">लाइब्रेरी श्रेणियों की दृश्यता और क्रम कॉन्फ़िगर करें।</string>
@@ -387,7 +383,6 @@
     <string name="pref_title_bluetooth_playback">ब्लूटूथ प्लेबैक</string>
     <string name="pref_title_blurred_album_art">धुंधला एल्बम कवर</string>
     <string name="pref_title_circle_button">गोलाकार प्ले बटन</string>
-    <string name="pref_title_classic_notification">क्लासिक अधिसूचना डिजाइन</string>
     <string name="pref_title_colored_app">अनुकूलित रंग</string>
     <string name="pref_title_colored_notification">रंगीन अधिसूचना</string>
     <string name="pref_title_cross_fade">क्रॉसफ़ेड (बीटा)</string>
@@ -396,7 +391,6 @@
     <string name="pref_title_expand_now_playing_panel">नाउ प्लेइंग स्क्रीन दिखाएँ</string>
     <string name="pref_title_extra_controls">अतिरिक्त नियंत्रण</string>
     <string name="pref_title_extra_song_info">गाने की जानकारी</string>
-    <string name="pref_title_gapless_playback">गैपलेस प्लेबैक</string>
     <string name="pref_title_general_theme">ऐप थीम</string>
     <string name="pref_title_home_album_grid_style">एल्बम ग्रिड</string>
     <string name="pref_title_home_artist_grid_style">कलाकार ग्रिड</string>
@@ -452,6 +446,7 @@
     <string name="restored_previous_purchase_please_restart">पिछली खरीदारी पुनर्स्थापित की गई. कृपया सभी सुविधाओं का उपयोग करने के लिए ऐप को पुनः आरंभ करें।</string>
     <string name="restored_previous_purchases">पिछली खरीद को पुनर्स्थापित करें</string>
     <string name="restoring_purchase">खरीदारी पुनर्स्थापित की जा रही है..</string>
+    <string name="billing_error">An error occurred while communicating with Google Play Billing</string>
     <string name="retro_music_player">रेट्रो म्यूजिक प्लेयर</string>
     <string name="retro_music_pro">रेट्रो म्यूजिक प्रो</string>
     <string name="ringtone_summary">संगीत को रिंगटोन के रूप में सेट करने के लिए ऐप को आपकी डिवाइस सेटिंग्स तक पहुंचने की अनुमति की आवश्यकता है।</string>
@@ -568,4 +563,8 @@
     <string name="your_account_data_is_only_used_for_authentication">आपके खाते का डेटा केवल प्रमाणीकरण के लिए उपयोग किया जाता है।</string>
     <string name="could_not_write_tags_to_file">म्यूजिक फ़ाइल में टैग नहीं लिखा जा सका!</string>
     <string name="sleep_timer_no_permission">No permission to schedule alarms, please allow Retro Music.</string>
+    <string name="scanning_folders_files">Scanning folders and files…</string>
+    <string name="scan_complete">Scan complete: %1$d media items found.</string>
+    <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>
+    <string name="pref_save_last_directory_title">Save Last Directory</string>
 </resources>

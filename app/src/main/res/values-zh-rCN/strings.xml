@@ -241,7 +241,7 @@
     <string name="loading_products">正在加载产品...</string>
     <string name="login">登录</string>
     <string name="lyrics">歌词</string>
-    <string name="made_with_love">❤️印度制造，情意绵长。❤️</string>
+    <string name="made_with_love">用❤️创造，印度出品</string>
     <string name="material">质感</string>
     <string name="md_error_label">错误</string>
     <string name="md_storage_perm_error">权限错误</string>
@@ -270,15 +270,13 @@
     <string name="no_purchase_found">没有找到购买记录</string>
     <string name="no_results">暂无结果</string>
     <string name="no_songs">暂无歌曲</string>
-    <string name="no_search_results">No search results</string>
+    <string name="no_search_results">无搜索结果</string>
     <string name="normal">正常</string>
     <string name="normal_lyrics">正常歌词</string>
     <string name="not_listed_in_media_store"><![CDATA[<b>%s</b> 未在媒体存储中列出。]]></string>
     <string name="not_recently_played">最近未播放歌曲</string>
     <string name="nothing_to_scan">无可检索。</string>
     <string name="nothing_to_see">空空如也</string>
-    <string name="notification">通知</string>
-    <string name="notification_settings_summary">自定义通知样式</string>
     <string name="now_playing">正在播放</string>
     <string name="now_playing_queue">正在播放队列</string>
     <string name="now_playing_summary">定制播放界面</string>
@@ -331,8 +329,8 @@
     <string name="pref_keep_pause_on_zero_volume_title">静音暂停</string>
     <string name="pref_keep_screen_on_summary">请注意，启用此功能可能会降低电池续航时间</string>
     <string name="pref_keep_screen_on_title">保持屏幕常亮</string>
-    <string name="pref_show_when_locked_summary">Requires an app restart to take effect. The player must be on foreground before locking for this feature to work</string>
-    <string name="pref_show_when_locked_title">Show the player interface when locked</string>
+    <string name="pref_show_when_locked_summary">需重启后生效。在锁定使该功能生效前播放器必须处于前端</string>
+    <string name="pref_show_when_locked_title">锁屏时显示播放界面</string>
     <string name="pref_language_name">选择语言</string>
     <string name="pref_snow_fall_title">降雪效果</string>
     <string name="pref_summary_album_art_on_lockscreen">将正在播放的歌曲专辑封面设置为锁屏壁纸</string>
@@ -344,7 +342,6 @@
     <string name="pref_summary_blurred_album_art">模糊化显示锁屏上的专辑封面。可能与第三方应用或微件产生冲突。</string>
     <string name="pref_summary_carousel_effect">在播放页为专辑图片使用轮播效果。
 使用时卡片和模糊卡片主题不会生效。</string>
-    <string name="pref_summary_classic_notification">使用经典通知样式</string>
     <string name="pref_summary_colored_app">背景及控件颜色跟随专辑封面变化</string>
     <string name="pref_summary_colored_app_shortcuts">将快捷方式颜色更改为强调色，每次颜色更改后需要切换一下该设置才能生效</string>
     <string name="pref_summary_colored_notification">"将通知颜色设为专辑封面的强调色"</string>
@@ -353,7 +350,6 @@
     <string name="pref_summary_expand_now_playing_panel">点击通知将显示正在播放页，而不是主页</string>
     <string name="pref_summary_extra_controls">给播放栏添加额外控件</string>
     <string name="pref_summary_extra_song_info">显示额外的歌曲信息，例如文件格式、比特率和频率</string>
-    <string name="pref_summary_gapless_playback">"在一些设备上可能会播放异常"</string>
     <string name="pref_summary_home_banner">是否显示主页横幅</string>
     <string name="pref_summary_ignore_media_store_artwork">可以提高封面质量，但加载时间较慢。请仅在图片分辨率过低时开启。</string>
     <string name="pref_summary_library_categories">配置媒体库的可见性和顺序</string>
@@ -362,7 +358,7 @@
     <string name="pref_summary_open_source_licences">开源许可详情</string>
     <string name="pref_summary_pause_history">启用后，新播放的歌曲不会显示在历史记录中</string>
     <string name="pref_summary_remember_tab">启动时打开上次使用的页面</string>
-    <string name="pref_summary_enable_search_playlist">Show a search field in a playlist</string>
+    <string name="pref_summary_enable_search_playlist">在播放列表显示搜索框</string>
     <string name="pref_summary_show_lyrics">在专辑封面上显示同步歌词</string>
     <string name="pref_summary_suggestions">在主屏上显示新歌混烧</string>
     <string name="pref_summary_swipe_anywhere_now_playing">在正在播放界面中启用任意位置滑动切歌</string>
@@ -386,7 +382,6 @@
     <string name="pref_title_bluetooth_playback">蓝牙播放</string>
     <string name="pref_title_blurred_album_art">模糊专辑封面</string>
     <string name="pref_title_circle_button">圆形播放按钮</string>
-    <string name="pref_title_classic_notification">经典通知样式</string>
     <string name="pref_title_colored_app">自适应颜色</string>
     <string name="pref_title_colored_notification">着色通知</string>
     <string name="pref_title_cross_fade">淡入淡出（测试）</string>
@@ -395,7 +390,6 @@
     <string name="pref_title_expand_now_playing_panel">显示正在播放界面</string>
     <string name="pref_title_extra_controls">额外控件</string>
     <string name="pref_title_extra_song_info">歌曲信息</string>
-    <string name="pref_title_gapless_playback">无缝播放</string>
     <string name="pref_title_general_theme">应用主题</string>
     <string name="pref_title_home_album_grid_style">专辑网格</string>
     <string name="pref_title_home_artist_grid_style">主页艺术家网格</string>
@@ -410,7 +404,7 @@
     <string name="pref_title_open_source_licences">开源许可</string>
     <string name="pref_title_pause_history">暂停历史记录</string>
     <string name="pref_title_remember_tab">记住最后打开页面</string>
-    <string name="pref_title_enable_search_playlist">Enable search in playlist</string>
+    <string name="pref_title_enable_search_playlist">在播放列表搜索</string>
     <string name="pref_title_show_lyrics">显示歌词</string>
     <string name="pref_title_suggestions">显示建议</string>
     <string name="pref_title_swipe_anywhere_now_playing">任意位置滑动切歌</string>
@@ -451,12 +445,13 @@
     <string name="restored_previous_purchase_please_restart">恢复以前的购买。请重新启动应用以使用所有功能。</string>
     <string name="restored_previous_purchases">恢复之前的购买。</string>
     <string name="restoring_purchase">正在恢复购买…</string>
+    <string name="billing_error">与 Google Play 结算服务通信时出错</string>
     <string name="retro_music_player">Retro Music 播放器</string>
     <string name="retro_music_pro">Retro Music 高级版</string>
     <string name="ringtone_summary">应用需要系统设置访问权限，才能将音乐设置为为铃声</string>
     <string name="ringtone_title">铃声（可选）</string>
     <string name="permission_alarm_summary">应用程序需要权限来安排准确的闹钟以设置睡眠定时器</string>
-    <string name="permission_alarm_title">闹铃（可选）</string>
+    <string name="permission_alarm_title">闹铃(可选）</string>
     <string name="saf_delete_failed">文件删除失败：%s</string>
     <!-- SAF -->
     <string name="saf_error_uri">无法获取 SAF URI</string>
@@ -507,8 +502,8 @@
     <string name="sort_order_num_songs">歌曲数量</string>
     <string name="sort_order_num_songs_desc">歌曲数量降序</string>
     <string name="sort_order_year">年份</string>
-    <string name="sort_order_year_asc">Year ascending</string>
-    <string name="sort_order_year_desc">Year descending</string>
+    <string name="sort_order_year_asc">按年份升序</string>
+    <string name="sort_order_year_desc">按年份降序</string>
     <string name="sort_order_z_a">降序</string>
     <string name="speech_not_supported">抱歉！您的设备不支持语音输入</string>
     <string name="speech_prompt">搜索媒体库</string>
@@ -517,7 +512,7 @@
     <string name="suggestion_songs">建议</string>
     <string name="support_development">支持开发者</string>
     <string name="swipe_to_unlock">滑动以解锁</string>
-    <string name="synced_lyrics">滚动歌词</string>
+    <string name="synced_lyrics">歌词同步</string>
     <string name="telegram_group">Telegram</string>
     <string name="telegram_group_summary">加入 Telegram 群组，讨论错误，提出建议，水群聊天等等</string>
     <string name="thank_you">谢谢您！</string>
@@ -532,7 +527,7 @@
     <string name="today">今日</string>
     <string name="top_albums">热门专辑</string>
     <string name="top_artists">热门艺术家</string>
-    <string name="track_hint">"音轨（2 代表第 2 条音轨，3004 代表第 3 张盘的第 4 条音轨）"</string>
+    <string name="track_hint">"音轨(2 代表第音轨2或3004代表CD3的音轨4）"</string>
     <string name="track_list">音轨编号</string>
     <string name="translate">翻译</string>
     <string name="translate_community">帮助我们将应用翻译成您的语言</string>
@@ -544,7 +539,7 @@
     <string name="up_next">下一首</string>
     <string name="update_image">更新图片</string>
     <string name="updating">正在更新…</string>
-    <string name="user_images_description">用户图像</string>
+    <string name="user_images_description">用户图片</string>
     <string name="user_name">用户名</string>
     <string name="username">用户名</string>
     <string name="version">版本</string>
@@ -567,4 +562,8 @@
     <string name="your_account_data_is_only_used_for_authentication">您的账户数据仅用于验证。</string>
     <string name="could_not_write_tags_to_file">无法将标签写入音乐文件！</string>
     <string name="sleep_timer_no_permission">无权限设定闹钟，请允许 Retro Music 执行</string>
+    <string name="scanning_folders_files">正在扫描文件夹和文件…</string>
+    <string name="scan_complete">扫描完成：找到 %1$d 个媒体项目。</string>
+    <string name="pref_save_last_directory_summary">切换到文件夹视图时恢复上次使用的目录</string>
+    <string name="pref_save_last_directory_title">保存上次目录</string>
 </resources>

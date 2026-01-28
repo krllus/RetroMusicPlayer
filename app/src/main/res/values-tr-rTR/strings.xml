@@ -279,8 +279,6 @@
     <string name="not_recently_played">Yakın zamanda oynatılmadı</string>
     <string name="nothing_to_scan">Aranacak herhangi bir şey yok.</string>
     <string name="nothing_to_see">Hiçbir şey yok</string>
-    <string name="notification">Bildirim</string>
-    <string name="notification_settings_summary">Bildirim stilini özelleştirin</string>
     <string name="now_playing">Şimdi oynatılıyor</string>
     <string name="now_playing_queue">Şimdi çalınıyor kuyruğu</string>
     <string name="now_playing_summary">Şimdi oynatılıyor ekranını özelleştirin</string>
@@ -345,7 +343,6 @@
     <string name="pref_summary_bluetooth_playback">Bluetooth cihazına bağlanır bağlanmaz çalmaya başla</string>
     <string name="pref_summary_blurred_album_art">Albüm kapağını kilit ekranında bulanıklaştır. Üçüncü taraf uygulamalar ve widget\'lar ile sorunlara neden olabilir</string>
     <string name="pref_summary_carousel_effect">Çalmakta olan ekranda albüm resmi için atlıkarınca efekti. Kart ve Bulanıklaştırma Kartı temalarının çalışmayacağını unutmayın</string>
-    <string name="pref_summary_classic_notification">Klasik bildirim tasarımını kullanın</string>
     <string name="pref_summary_colored_app">Arka plan ve kontrol düğmesinin renkleri, çalmakta olan ekranda albüm resmine göre değişir</string>
     <string name="pref_summary_colored_app_shortcuts">Vurgu rengindeki uygulama kısayollarını renklendirir. Lütfen rengi her değiştirdiğinizde, etkili olması için bu düğmeyi değiştirin.</string>
     <string name="pref_summary_colored_notification">"Alb\u00fcm kapa\u011f\u0131n\u0131n canl\u0131 rengindeki bildirimi renklendirir"</string>
@@ -354,7 +351,6 @@
     <string name="pref_summary_expand_now_playing_panel">Bildirime tıklamak ana ekran yerine şimdi oynatılıyor ekranını gösterecek</string>
     <string name="pref_summary_extra_controls">Mini oynatıcı için ekstra kontroller ekle</string>
     <string name="pref_summary_extra_song_info">Dosya formatı, bit hızı ve frekans gibi fazladan şarkı bilgilerini göster</string>
-    <string name="pref_summary_gapless_playback">"Bazı cihazlarda oynatma sorunlarına neden olabilir"</string>
     <string name="pref_summary_home_banner">Ana sayfa afişini etkinleştir</string>
     <string name="pref_summary_ignore_media_store_artwork">Albüm kapağı kalitesini artırabilir, ancak fotoğrafın yavaş yüklenmesine neden olur. Bunu, yalnızca düşük çözünürlüklü resimlerle ilgili sorunlarınız varsa etkinleştirin.</string>
     <string name="pref_summary_library_categories">Kütüphane kategorilerinin görünürlük ve sırasını yapılandırın</string>
@@ -387,7 +383,6 @@
     <string name="pref_title_bluetooth_playback">Bluetooth ile oynatma</string>
     <string name="pref_title_blurred_album_art">Albüm kapağını bulanıklaştır</string>
     <string name="pref_title_circle_button">Dairesel oynatma düğmesi</string>
-    <string name="pref_title_classic_notification">Klasik bildirim tasarımı</string>
     <string name="pref_title_colored_app">Adaptif renk</string>
     <string name="pref_title_colored_notification">Renkli bildirim</string>
     <string name="pref_title_cross_fade">Çapraz geçiş (Beta)</string>
@@ -396,7 +391,6 @@
     <string name="pref_title_expand_now_playing_panel">Şimdi oynatılıyor ekranını göster</string>
     <string name="pref_title_extra_controls">Ekstra kontroller</string>
     <string name="pref_title_extra_song_info">Şarkı bilgisi</string>
-    <string name="pref_title_gapless_playback">Aralıksız oynatma</string>
     <string name="pref_title_general_theme">Uygulama teması</string>
     <string name="pref_title_home_album_grid_style">Albüm kapağı</string>
     <string name="pref_title_home_artist_grid_style">Ana sayfa sanatçı ızgarası</string>
@@ -452,6 +446,7 @@
     <string name="restored_previous_purchase_please_restart">Önceki satın alma işlemi geri yüklendi. Tüm özelliklerden yararlanmak için lütfen uygulamayı yeniden başlatın.</string>
     <string name="restored_previous_purchases">Önceki satın almalar geri yüklendi.</string>
     <string name="restoring_purchase">Satın alım geri yükleniyor ...</string>
+    <string name="billing_error">An error occurred while communicating with Google Play Billing</string>
     <string name="retro_music_player">Retro Müzik Çalar</string>
     <string name="retro_music_pro">Retro Müzik Pro</string>
     <string name="ringtone_summary">Müziği zil sesi yapmak için uygulamanın cihaz ayarlarına erişim yetkisi gereklidir</string>
@@ -568,4 +563,8 @@
     <string name="your_account_data_is_only_used_for_authentication">Hesap verileriniz sadece kimlik doğrulama için kullanılır.</string>
     <string name="could_not_write_tags_to_file">Etiketler müzik dosyasına yazılamadı!</string>
     <string name="sleep_timer_no_permission">No permission to schedule alarms, please allow Retro Music.</string>
+    <string name="scanning_folders_files">Scanning folders and files…</string>
+    <string name="scan_complete">Scan complete: %1$d media items found.</string>
+    <string name="pref_save_last_directory_summary">When switching to folder view, restore last used directory</string>
+    <string name="pref_save_last_directory_title">Save Last Directory</string>
 </resources>

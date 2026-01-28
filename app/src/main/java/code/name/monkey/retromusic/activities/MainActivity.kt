@@ -133,6 +133,7 @@ class MainActivity : AbsCastActivity() {
         handlePlaybackIntent(intent)
     }
 
+    @Suppress("deprecation")
     private fun handlePlaybackIntent(intent: Intent) {
         lifecycleScope.launch(IO) {
             val uri: Uri? = intent.data
